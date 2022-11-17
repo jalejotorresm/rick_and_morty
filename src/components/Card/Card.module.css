@@ -5,6 +5,7 @@
     margin: 0.5em;
     border: solid #82491EFF 0.3em;
     border-radius: 15px;
+    transition: all 0.25s;
 }
 
 .card:hover{
@@ -18,11 +19,9 @@
     height: 40px;
     border-radius: 0.5em;
     text-align: center;
-}
-
-.divButton{
-    display: flex;
-    flex-direction: row-reverse;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .divImg{
@@ -31,6 +30,7 @@
 
 img{
     object-fit: contain;
+    border-radius: 15px 15px 0 0;
 }
 
 .imgName{
@@ -46,5 +46,5 @@ img{
 .data{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }

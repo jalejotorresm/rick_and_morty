@@ -8,6 +8,7 @@
     width: 480px;
     height: 40px;
     margin: 0.5rem;
+    border-radius: 15px;
 }
 
 .okButton{
@@ -17,4 +18,11 @@
     font-weight: bold;
     margin: 0.5rem;
     padding: 0 0.5rem 0 0.5rem;
+    border-radius: 9999px;
+    transition: all 0.25s;
+}
+
+.okButton:hover{
+    transform: scale(1.05);
+    background-color: rgb(120, 197, 6);
 }
